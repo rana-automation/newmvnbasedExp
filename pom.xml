@@ -1,6 +1,4 @@
 <?xml version="1.0"?>
-
--
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="http://maven.apache.org/POM/4.0.0">
@@ -15,7 +13,6 @@
             <id>SmartBearPluginRepository</id>
             <url>http://www.soapui.org/repository/maven2/</url>
         </pluginRepository>
-
         <pluginRepository>
             <id>eviwarePluginRepository</id>
             <url>http://www.soapui.org/repository/maven2/</url>
@@ -42,7 +39,6 @@
                         </property>
                     </soapuiProperties>
                 </configuration>
-
                 <executions>
                     <execution>
                         <goals>
@@ -54,7 +50,6 @@
             </plugin>
         </plugins>
     </build>
-
     <profiles>
         <profile>
             <id>akcapi</id>
@@ -62,7 +57,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <project.file>Gradebook-soapui-project</project.file>
+                <project.file>Test</project.file>
                 <project.EndPoint1>Test</project.EndPoint1>
             </properties>
         </profile>
